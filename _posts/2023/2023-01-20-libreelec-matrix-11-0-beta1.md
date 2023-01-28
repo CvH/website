@@ -14,8 +14,8 @@ LibreELEC 10.0 setups will not be automatically updated, you will need to [manua
 
 ## RASPBERRY PI
 
-- 50/60fps H264 HW decoding may need `force_turbo=1` or `core_freq_min=500` in config.txt to avoid AV-sync-issues/skipping
-- Kodi at RPi4 runs in 4096x2160 instead of 3840x2160 on 4k TVs after fresh installation - configure Kodi as [described at the wiki](https://wiki.libreelec.tv/configuration/4k-hdr) and optionally add hdmi_enable_ekp60=1 to config.txt and enable HDMI UltraHD Deep Color in your TV's HDMI port configuration to get 4kp60 modes
+- For 50/60fps H264 HW decoding the `force_turbo=1` or `core_freq_min=500` settings may need in config.txt to avoid AV-sync-issues/skipping
+- Kodi at RPi4 runs in 4096x2160 instead of 3840x2160 on 4k TVs after fresh installation. Configure Kodi as [described at the wiki](https://wiki.libreelec.tv/configuration/4k-hdr) and optionally add hdmi_enable_ekp60=1 to config.txt and enable HDMI UltraHD Deep Color in your TV's HDMI port configuration to get 4kp60 modes
 
 ## GENERIC PC
 
@@ -25,7 +25,7 @@ We additional introduced a Generic-legacy image that uses the same old graphic s
 When should I use Generic-legacy:
 
 - usage of a Nvidia GPU
-- graphical glitches appear at older hardware, for example NUC 6th Gen.
+- graphical glitches appearing with older hardware, for example NUC 5th Gen.
 - usage of the Chrome Add-On
 
 ## ALLWINNER
@@ -52,7 +52,7 @@ The reason for not formally supporting newer hardware generations is all about h
 
 Due the many breaking changes at Kodi and LibreELEC, it is strongly recommended to create a backup BEFORE you upgrade. Otherwise, rolling back is basically impossible. Kodi does not support in-place downgrades, and if it ever worked for you in the past it was simple luck, not design. Python3 guarantees problems this time.
 
-So unless you are already running an image with Kodi 19 inside, a clean install is preferred. We apologize for the inconvenience, but we expect a much higher than normal support effort with in-place upgrades so it’s sensible advice.
+So unless you are already running an image with Kodi 19, a clean install is preferred. We apologize for the inconvenience, but we expect a much higher than normal support effort with in-place upgrades so it’s sensible advice.
 
 ## SUPPORT
 
