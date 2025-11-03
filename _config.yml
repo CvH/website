@@ -39,9 +39,9 @@ plugins:
 le_download_url: https://releases.libreelec.tv
 
 # LE12.2
-release_date_le_12_2: 2025.08
-kodi_version_le_12_2: 21.2
-le_version_download_12_2: 12.2.0
+release_date_le_12_2: 2025.11
+kodi_version_le_12_2: 21.3
+le_version_download_12_2: 12.2.1
 le_version_name_12_2: 12.2
 kernel_version_le_12_2: 6.16.x
 kernel_version_rpi_le_12_2: 6.12.x
